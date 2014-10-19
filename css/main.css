@@ -1,0 +1,54 @@
+.fact2, .fact3, .fact4, .fact5, .fact6 {
+	display:none;
+}
+
+body {
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#3ea2fa;
+}
+
+@media (max-width: 1024px) {
+		.fact2 {
+		display:block;
+	}
+	body {
+	background-color:#B0AF32;
+}
+}
+
+@media (max-width: 840px) {
+		.fact3 {
+		display:block;
+	}
+		body {
+	background-color:#5aa958;
+}
+}
+
+@media (max-width: 680px) {
+		.fact4 {
+		display:block;
+	}
+	body {
+		background-color:#00B4B4;
+	}
+}
+
+@media (max-width: 516px) {
+		.fact5 {
+		display:block;
+	}
+		body {
+		background-color:#ADAD8E;
+	}
+}
+
+@media (max-width: 350px) {
+		.fact6 {
+		display:block;
+	}
+	body {
+		background-color:orange;
+	}
+}
